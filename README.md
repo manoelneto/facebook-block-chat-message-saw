@@ -4,6 +4,6 @@ Extensão do Google Chrome para seu amigo não saber que você visualizou o chat
 
 ## Como instalar
 
-Faça download do arquivo app.crx, acesse a página de extensões do seu Chrome (chrome://extensions/) e arraste o arquivo facebook-filter.crx para a página.
+Faça download clicando [aqui](https://github.com/manoelneto/facebook-block-chat-message-saw/archive/master.zip), acesse a página de extensões do seu Chrome (chrome://extensions/) e arraste o arquivo facebook-filter.crx para a página.
 
 E só.
