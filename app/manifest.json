@@ -1,0 +1,21 @@
+
+{
+    "name": "Bloqueiador de mensagem de 'visualizada' do chat do facebook",
+    "description": "Bloqueia mensagens de visualizada do facebook, útil para ver o chat e não precisar responder. Autor: facebook.com/manoelquirinoneto",
+
+    "version": "1.0",
+    "icons" : {
+      "48" : "icon-48.png",
+      "128" : "icon-128.png"
+    },
+    "content_scripts": [{
+      "matches": [ "https://www.facebook.com/*", "http://www.facebook.com/*" ],
+      "js": [ "functions.js" ],
+      "run_at" : "document_start"
+    }],
+    "permissions": [
+        "https://www.facebook.com/*",
+        "http://www.facebook.com/*"
+    ],
+    "manifest_version": 2
+}
